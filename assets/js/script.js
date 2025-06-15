@@ -26,10 +26,10 @@ let progressBar = document.getElementById('progress-bar');
 let progress = 0;
 let language = localStorage.getItem('lang') || 'fa'
 
-document.getElementById('max-ip').value = localStorage.getItem('max-ip') || 10;
-document.getElementById('max-latency').value = localStorage.getItem('max-latency') || 800;
+document.getElementById('max-ip').value = localStorage.getItem('max-ip') || 20;
+document.getElementById('max-latency').value = localStorage.getItem('max-latency') || 900;
 document.getElementById('ip-regex').value = localStorage.getItem('ip-regex');
-document.getElementById('ip-include').value = localStorage.getItem('ip-include') || '1.1.1.1/24';
+document.getElementById('ip-include').value = localStorage.getItem('ip-include');
 document.getElementById('ip-exclude').value = localStorage.getItem('ip-exclude');
 
 
